@@ -22,3 +22,5 @@ git push -u origin master
 git subtree split --prefix public -b hostinger-deploy
 git push origin hostinger-deploy:hostinger --force
 git branch -D hostinger-deploy
+Write-Host -NoNewLine 'Press any key to continue...';
+$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
