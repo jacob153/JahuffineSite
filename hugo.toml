@@ -6,6 +6,9 @@ theme = "terminal"
 paginate = 5
 
 [params]
+  
+  grades = ['b', 'a', 'c']
+
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
