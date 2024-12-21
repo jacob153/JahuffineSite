@@ -9,4 +9,6 @@ tags:
 
 I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.
 
-![Image Description](/images/Pasted%20image%2020241220193542.png)
+Script testing text
+
+!![Image Description](/images/Screenshot%202024-12-20%20193426.png)

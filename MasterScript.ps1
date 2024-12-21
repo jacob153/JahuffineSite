@@ -1,11 +1,12 @@
-$ObsidianPostsPath = "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Posts"
+#$ObsidianPostsPath = "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Posts"
 $HugoInstallPath = "C:\Users\Jacob\OneDrive\Documents\JahuffineSite"
-$RepoName = "JahuffineSite"
+##$HugoContentPostsPath = "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\posts"
+#$RepoName = "JahuffineSite"
 
 Set-Location $HugoInstallPath
-robocopy posts "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Posts" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\posts" /mir
-python3 images.py
-hugo
+robocopy "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Posts" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\posts" /mir
+Python3 .\images.py
+hugo.exe
 git add .
 $CommitMessage = "Post Update on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 git commit -m "$CommitMessage"
