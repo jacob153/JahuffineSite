@@ -1,5 +1,5 @@
 ---
-title: My First Hugo Blog
+title: Post Template
 date: 2024-12-20
 draft: false
 tags:
