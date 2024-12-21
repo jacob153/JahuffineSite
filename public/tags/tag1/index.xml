@@ -13,9 +13,9 @@
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>/posts/my-first-hugo-blog/</guid>
-      <description>&lt;p&gt;![[Pasted image 20241220180319.png]]&lt;/p&gt;
+      <description>&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020241220180319.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;</description>
-      <content>&lt;p&gt;![[Pasted image 20241220180319.png]]&lt;/p&gt;
+      <content>&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020241220180319.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;
 </content>
     </item>
