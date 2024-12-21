@@ -1,0 +1,14 @@
+{
+  "htmlElements": {
+    "tags": [
+      "head",
+      "html",
+      "link",
+      "meta",
+      "script",
+      "scripts"
+    ],
+    "classes": null,
+    "ids": null
+  }
+}

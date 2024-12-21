@@ -1,0 +1,243 @@
+<!-- This website has been built with 💖 and 🍕 on 🌍 using Salinger Theme for Hugo framework. The theme has been released with MIT licence and can be found at https://github.com/jacksalici/salinger-theme. -->
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  
+  <meta name="title" content="Salinger Theme for Hugo built with TailwindCSS and DaisyUI" />
+   
+  <meta name="description" content="Salinger is a clean, minimalistic, mobile-first, blazing-fast, fancy and lightweight theme for the Hugo framework built with TailwindCSS and DaisyUI" />
+   <meta name="keywords" content="simple44minimal44clean44fast44blog44portfolio44responsive44twemoji44recursion44section44tailwind44daisyui"/>
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="John Doe" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="Content-Security-Policy" content="default-src *;
+   img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+   style-src  'self' 'unsafe-inline' *">
+   
+  
+  <link rel="shortcut icon" href="http://localhost:1313/logo.svg" />
+  
+
+  
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet"
+  />
+
+     
+  <link href="/css/styles.css" rel="stylesheet" />
+
+  
+  <link
+    rel="preload"
+    as="style"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+
+  
+  
+
+  
+
+  
+  <script
+    src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js"
+    crossorigin="anonymous"
+  ></script>
+  
+
+  <scripts defer
+    src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"
+  ></script>
+
+  
+  <title>
+    Langs ~
+    Salinger Theme
+  </title>
+
+  <script>
+  changeTheme()
+
+  function changeTheme(){
+    if (localStorage.theme === 'dim' || ((localStorage.theme === 'auto' || !('theme' in localStorage)) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+  }
+
+  </script>
+</head>
+<body class="flex flex-col h-screen justify-between" tabindex="0">
+
+<div class="navbar bg-transparent backdrop-filter backdrop-blur-sm z-10 fixed top-0">
+  <div class="flex-1">
+    <a href="/"class="text-lg font-bold flex" aria-label="Logo Link to the home">
+    <div class="fill-base-content w-7 h-7 my-auto"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M292-506q18-36 38.5-71t43.5-67l-79-16-109 109 106 45Zm515-312q-102 5-184 43.5T463-658q-31 31-64 81t-59 107l133 133q57-26 107-59t81-64q78-78 116.5-159.5T821-803q0-3-1-6t-3-5q-2-2-4.5-3t-5.5-1ZM570-566q-20-20-20-49.5t20-49.5q20-20 49.5-20t49.5 20q20 20 20 49.5T669-566q-20 20-49.5 20T570-566Zm-61 278 45 105 109-109-15-79q-32 23-67.5 44T509-288Zm373-559q3 125-40.5 230.5T704-417q-1 1-2 1.5t-2 1.5l22 110q3 15-1 29t-15 25L565-109q-11 11-26.5 8T517-119l-68-157-169-170-158-67q-15-6-17.5-22t8.5-27l140-140q11-11 25-15.5t29-1.5l110 22q1-1 2-1.5t2-1.5q94-94 199-137.5T850-878q6 0 11.5 2.5T872-868q5 5 7.5 10t2.5 11ZM149-325q35-35 85.5-35.5T320-326q35 35 34.5 85.5T319-155q-26 26-80.5 43T75-80q15-109 31.5-164t42.5-81Zm42 43q-14 15-25 47t-19 82q50-8 82-19t47-25q19-17 19.5-42.5T278-284q-19-18-44.5-17.5T191-282Z"/></svg>
+</div>
+      <div class="ml-3 my-auto pl-3">Salinger Theme</div>
+    </a>
+  </div>
+  <div class="flex-none">
+  
+    
+    <div class="dropdown dropdown-end dropdown-hover">
+      
+      <label tabindex="0" class="btn btn-ghost btn-circle">
+        <svg class="icon w-7 h-7" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-85 32-158t87.5-127q55.5-54 130-84.5T489-880q79 0 150 26.5T763.5-780q53.5 47 85 111.5T880-527q0 108-63 170.5T650-294h-75q-18 0-31 14t-13 31q0 27 14.5 46t14.5 44q0 38-21 58.5T480-80Zm0-400Zm-233 26q20 0 35-15t15-35q0-20-15-35t-35-15q-20 0-35 15t-15 35q0 20 15 35t35 15Zm126-170q20 0 35-15t15-35q0-20-15-35t-35-15q-20 0-35 15t-15 35q0 20 15 35t35 15Zm214 0q20 0 35-15t15-35q0-20-15-35t-35-15q-20 0-35 15t-15 35q0 20 15 35t35 15Zm131 170q20 0 35-15t15-35q0-20-15-35t-35-15q-20 0-35 15t-15 35q0 20 15 35t35 15ZM480-140q11 0 15.5-4.5T500-159q0-14-14.5-26T471-238q0-46 30-81t76-35h73q76 0 123-44.5T820-527q0-132-100-212.5T489-820q-146 0-247.5 98.5T140-480q0 141 99.5 240.5T480-140Z"/></svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm dropdown-content z-[1] shadow-lg bg-base-100 rounded-lg ">
+          <li>
+            <button data-set-theme="auto" data-key="theme">
+              <svg class="icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M392-567 263-694q29-20 63-32t69-17q14.211-2 22.105 9.5Q425-722 418-710q-14 26-21 53.325-7 27.326-7 56.675 0 8 .5 16.5T392-567Zm305 300-86-85q20 2 38.5 1.5T687-356q17-5 29.5 8t7.5 30q-6 14-12.682 26.333Q704.636-279.333 697-267Zm-136 43L224-561q-17 28.431-25.5 58.715Q190-472 190-440q0 104.167 72.917 177.083Q335.833-190 440-190q32 0 62.5-9t58.5-25Zm-121 94q-129 0-219.5-90.5T130-440q0-45.15 12.5-87.075Q155-569 179-607L50-736q-9-8.8-9-20.9 0-12.1 9-21.1 9-9 21.833-9 12.834 0 22.167 9l676 677q9 9 9 21t-9.053 21q-9.052 9-21.5 9Q736-50 727-59L607-179q-38 24-79.925 36.5T440-130Zm-47-263Zm265-211-20 56.836Q634-536 625.31-530q-8.689 6-19.31 6-17 0-27.5-14t-4.554-31l101.09-287q3.964-11 13.652-17.5Q698.375-880 710-880h26q12 0 21.583 6.72Q767.167-866.56 771-856l101.056 287q5.944 17-4.556 31T840-524q-10.667 0-19.394-6.229Q811.879-536.458 808-547l-20.27-57H658Zm16-50h98l-49-155-49 155Z"/></svg>
+            </button>
+          </li>
+          <li>
+            <button data-set-theme="lit" data-key="theme">
+              <svg class="icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M479.765-340Q538-340 579-380.765q41-40.764 41-99Q620-538 579.235-579q-40.764-41-99-41Q422-620 381-579.235q-41 40.764-41 99Q340-422 380.765-381q40.764 41 99 41Zm.235 60q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM70-450q-12.75 0-21.375-8.675Q40-467.351 40-480.175 40-493 48.625-501.5T70-510h100q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T170-450H70Zm720 0q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T790-510h100q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T890-450H790ZM479.825-760Q467-760 458.5-768.625T450-790v-100q0-12.75 8.675-21.375 8.676-8.625 21.5-8.625 12.825 0 21.325 8.625T510-890v100q0 12.75-8.675 21.375-8.676 8.625-21.5 8.625Zm0 720Q467-40 458.5-48.625T450-70v-100q0-12.75 8.675-21.375 8.676-8.625 21.5-8.625 12.825 0 21.325 8.625T510-170v100q0 12.75-8.675 21.375Q492.649-40 479.825-40ZM240-678l-57-56q-9-9-8.629-21.603.37-12.604 8.526-21.5 8.896-8.897 21.5-8.897Q217-786 226-777l56 57q8 9 8 21t-8 20.5q-8 8.5-20.5 8.5t-21.5-8Zm494 495-56-57q-8-9-8-21.375T678.5-282q8.5-9 20.5-9t21 9l57 56q9 9 8.629 21.603-.37 12.604-8.526 21.5-8.896 8.897-21.5 8.897Q743-174 734-183Zm-56-495q-9-9-9-21t9-21l56-57q9-9 21.603-8.629 12.604.37 21.5 8.526 8.897 8.896 8.897 21.5Q786-743 777-734l-57 56q-8 8-20.364 8-12.363 0-21.636-8ZM182.897-182.897q-8.897-8.896-8.897-21.5Q174-217 183-226l57-56q8.8-9 20.9-9 12.1 0 20.709 9Q291-273 291-261t-9 21l-56 57q-9 9-21.603 8.629-12.604-.37-21.5-8.526ZM480-480Z"/></svg>
+            </button>
+          </li>
+          <li>
+            <button data-set-theme="dim" data-key="theme">
+              <svg class="icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M480-120q-150 0-255-105T120-480q0-135 79.5-229T408-830q41-8 56 14t-1 60q-9 23-14 47t-5 49q0 90 63 153t153 63q25 0 48.5-4.5T754-461q43-16 64 1.5t11 59.5q-27 121-121 200.5T480-120Zm0-60q109 0 190-67.5T771-406q-25 11-53.667 16.5Q688.667-384 660-384q-114.689 0-195.345-80.655Q384-545.311 384-660q0-24 5-51.5t18-62.5q-98 27-162.5 109.5T180-480q0 125 87.5 212.5T480-180Zm-4-297Z"/></svg>
+            </button>
+          </li>
+      </ul>
+    </div>
+    
+
+  
+    <div class="dropdown dropdown-end dropdown-hover">
+      <label tabindex="0" class="btn btn-ghost btn-circle">
+        
+        <svg class="icon w-7 h-7" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M110-558q-12.75 0-21.375-8.625T80-588v-10q0-109 105-175.5T480-840q190 0 295 66.5T880-598v10q0 12.75-8.625 21.375T850-558H110Zm32-60h676q-3-69-96.5-115.5T480-780q-148 0-242.5 46.5T142-618ZM80-416q0-8.878 7-17.439T105-447q23-8 45.564-23.5T216-486q54 0 71.5 22t58.5 22q41 0 60.5-22t73.5-22q54 0 73.5 22t60.5 22q41 0 58.5-22t71.5-22q43 0 65.5 15.5T855-447q11.184 5.25 18.092 13.125Q880-426 880-416q0 15.162-10.5 24.081Q859-383 846-386q-32-8-50.5-24t-51.515-16Q703-426 685.5-404T614-382q-54 0-73.5-22T480-426q-41 0-60.5 22T346-382q-54 0-71.5-22t-58.485-22Q183-426 164.5-410T114-386q-13 3-23.5-5.919T80-416Zm60 296q-24 0-42-18t-18-42v-68q0-24.75 17.625-42.375T140-308h680q24.75 0 42.375 17.625T880-248v68q0 24-18 42t-42 18H140Zm0-60h680v-68H140v68Zm2-438h676-676Zm-2 370h680-680Z"/></svg>
+ 
+        
+      </label>
+      <ul tabindex="0" class="dropdown-content menu menu-sm z-[1] p-2 shadow-lg bg-base-100 rounded-lg w-40">
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+</script>
+<div class="mb-auto">
+
+  
+<div class=" bg-base-200  mb-7  place-items-start">
+    <div class="feed w-full py-24">
+      <div class="  space-y-3 ">
+        
+        
+
+        <h1 class="  text-4xl  font-bold font-serif">
+             All langs 
+        </h1>
+        
+        
+        
+        
+
+        
+        <div class="text-xs pt-2">
+  
+  
+  
+
+  <br/>
+
+  
+
+
+  
+</div>
+
+        
+        
+        
+
+      </div>
+    </div>
+</div>
+
+
+
+
+  <div class="feed">
+  </div>
+
+
+    </div>
+
+
+<footer class="mt-20 p-2 bg-base-200 text-base-content">
+     <div class="max-w-2xl justify-between m-auto flex text-xs space-y-1">
+        
+          <div class="flex-1 my-auto">
+            <p class="block my-2">
+               
+               
+               
+               
+                  
+               &copy; 2024 - John Doe. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="link">Some rights reserved.</a>   
+           </p>
+           
+           <p class="block mb-2">
+                 
+                Made with <svg class="icon w-4 h-4" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M645.889-470q-6.689 0-12.9-2T622-479q-87-78-148.5-148.757T412-760q0-51.758 35.22-86.879Q482.439-882 534.341-882 564-882 593.5-865.5T646-821q23-28 52.5-44.5t59.159-16.5q51.902 0 87.122 35.121Q880-811.758 880-760q0 61.486-61.5 132.243T670.055-479q-5.055 5-11.266 7t-12.9 2Zm.111-71q66-60 120-119t54-100q0-27.423-17.356-44.712Q785.288-822 757.758-822 741-822 724.5-814q-16.5 8-33.5 30l-45 55-45-55q-17-22-33.5-30t-33.258-8q-27.53 0-44.886 17.288Q472-787.423 472-760q0 41 54 100t120 119Zm-84 417 248-78q-6-8-15.194-20.5Q785.613-235 774-235H536q-2 0-18-1.5t-31-8.5l-66-20q-12-4-18-16t-2-24q4-12 15.278-18T440-324l93 31q-2 0 14.5-1t47.333-1H604q0-12.419-4.5-23.71Q595-330 584-335l-245-93h-84v214l307 90Zm-13 57-294-84q-2 27-22.5 42T195-94h-95q-24.75 0-42.375-17.625T40-154v-274q0-24.75 17.625-42.375T100-488h238q5.333 0 10.667 1Q354-486 359-484l245 92q27 10 45.5 32.5T668-295h114q42 0 70 30t28 81q0 11-5 19.5T859-152L583-67q-8.171 2-17.086 2Q557-65 549-67Zm97-615ZM100-154h94v-274h-94v274Z"/></svg> and <a class="link" href="https://github.com/jacksalici/salinger-theme">Salinger Theme</a>.
+                
+           </p>
+
+          </div>
+
+          
+
+
+           
+           
+     </div>
+ 
+   
+  </footer>
+
+
+
+
+
+
+</body>
+
+    <script>
+
+      
+
+      try {
+          twemoji.parse(document.body, {
+            folder: "svg",
+            ext: ".svg",
+          });
+      } catch(e) {
+        if (e instanceof ReferenceError) {
+            console.log("Tweemoji not initialized")
+            console.log(e)
+        }
+      }
+    </script>
+</html>

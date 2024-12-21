@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/documentation/documentation-test/</loc>
+    <loc>https://examplesite.com/documentation/documentation-test/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/documentation/</loc>
+    <loc>https://examplesite.com/documentation/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/my-first-hugo-blog/</loc>
+    <loc>https://examplesite.com/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://examplesite.com/posts/my-first-hugo-blog/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tag1/</loc>
+    <loc>https://examplesite.com/posts/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tag2/</loc>
+    <loc>https://examplesite.com/tags/tag1/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://examplesite.com/tags/tag2/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://examplesite.com/tags/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://examplesite.com/categories/</loc>
   </url>
 </urlset>
