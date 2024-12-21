@@ -22,5 +22,16 @@
 </content>
     </item>
     
+    <item>
+      <title>My First Hugo Blog</title>
+      <link>/posts/post-template/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/post-template/</guid>
+      <description>&lt;p&gt;This is a post template&lt;/p&gt;</description>
+      <content>&lt;p&gt;This is a post template&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
