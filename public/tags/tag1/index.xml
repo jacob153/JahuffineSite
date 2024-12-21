@@ -14,9 +14,9 @@
       
       <guid>/documentation/documentation-test/</guid>
       <description>&lt;p&gt;This is a test
-![[Pasted image 20241220210607.png]]&lt;/p&gt;</description>
+!&lt;img src=&#34;/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
       <content>&lt;p&gt;This is a test
-![[Pasted image 20241220210607.png]]&lt;/p&gt;
+!&lt;img src=&#34;/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     

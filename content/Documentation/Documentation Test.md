@@ -7,4 +7,4 @@ tags:
   - tag2
 ---
 This is a test
-![[Pasted image 20241220210607.png]]
+!![Image Description](/images/Pasted%20image%2020241220210607.png)
