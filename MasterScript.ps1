@@ -5,7 +5,9 @@ $HugoInstallPath = "C:\Users\Jacob\OneDrive\Documents\JahuffineSite"
 
 Set-Location $HugoInstallPath
 robocopy "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Posts" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\posts" /mir
-Python3 .\images.py
+Python3 .\PostImageProcessing.py
+robocopy "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Documentation" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\Documentation" /mir
+Python3 .\DocumentationImageProcessing.py
 hugo.exe
 git add .
 $CommitMessage = "Post Update on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"

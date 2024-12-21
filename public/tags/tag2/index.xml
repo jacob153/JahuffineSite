@@ -8,6 +8,16 @@
     <language>en</language>
     <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Documentation Test</title>
+      <link>/documentation/documentation-test/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/documentation-test/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
       <title>My First Hugo Blog</title>
       <link>/posts/my-first-hugo-blog/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
@@ -19,28 +29,6 @@
       <content>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;
 &lt;p&gt;Script testing text&lt;/p&gt;
 &lt;p&gt;!&lt;img src=&#34;/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Post Template</title>
-      <link>/posts/post-template/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/post-template/</guid>
-      <description>&lt;p&gt;This is a post template&lt;/p&gt;</description>
-      <content>&lt;p&gt;This is a post template&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Subfolder Test</title>
-      <link>/posts/documentation/subfolder-test/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/documentation/subfolder-test/</guid>
-      <description>&lt;p&gt;This is a subfolder test&lt;/p&gt;</description>
-      <content>&lt;p&gt;This is a subfolder test&lt;/p&gt;
 </content>
     </item>
     
