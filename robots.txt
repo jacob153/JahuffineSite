@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://tan-butterfly-307193.hostingersite.com/sitemap.xml
