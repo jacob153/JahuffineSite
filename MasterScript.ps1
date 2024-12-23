@@ -14,7 +14,7 @@ Python3 .\PostImageProcessing.py
 robocopy "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Documentation" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\Documentation" /mir
 Python3 .\DocumentationImageProcessing.py
 
-hugo.exe
+hugo.exe build -t PaperMod
 git add .
 $CommitMessage = "Post Update on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 git commit -m "$CommitMessage"
