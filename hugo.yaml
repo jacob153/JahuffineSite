@@ -101,10 +101,10 @@ menu:
       name: Documentation
       url: /documentation/
       weight: 40
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 50
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
