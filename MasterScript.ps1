@@ -7,7 +7,7 @@ $HugoInstallPath = "C:\Users\Jacob\OneDrive\Documents\JahuffineSite"
 Set-Location $HugoInstallPath
 
 #Sync Obsidian posts into Hugo install content folder
-robocopy "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Posts" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\posts" /mir
+robocopy "C:\Users\Jacob\Obsidian Vaults\Personal\Jahuffine Website\Projects" "C:\Users\Jacob\OneDrive\Documents\JahuffineSite\content\Projects" /mir
 Python3 .\PostImageProcessing.py
 
 #Sync and process images for Documentation

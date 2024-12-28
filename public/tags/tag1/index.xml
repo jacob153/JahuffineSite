@@ -30,5 +30,14 @@
 &lt;p&gt;Script testing text&lt;/p&gt;
 &lt;p&gt;!&lt;img alt=&#34;Image Description&#34; loading=&#34;lazy&#34; src=&#34;https://tan-butterfly-307193.hostingersite.com/images/Screenshot%202024-12-20%20193426.png&#34;&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>My First Hugo Blog</title>
+      <link>https://tan-butterfly-307193.hostingersite.com/projects/my-first-hugo-blog/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://tan-butterfly-307193.hostingersite.com/projects/my-first-hugo-blog/</guid>
+      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;
+&lt;p&gt;Script testing text&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; loading=&#34;lazy&#34; src=&#34;https://tan-butterfly-307193.hostingersite.com/images/Screenshot%202024-12-20%20193426.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
