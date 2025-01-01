@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/projects/image-processing-test/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/projects/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/tags/tag2/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/tags/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/about/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/docs/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/about/documentation-test/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/docs/documentation-test/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tan-butterfly-307193.hostingersite.com/documentation/documentation-test/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tan-butterfly-307193.hostingersite.com/documentation/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tan-butterfly-307193.hostingersite.com/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tan-butterfly-307193.hostingersite.com/documentation/ipod-classic/models-and-specs/</loc>
@@ -26,18 +50,13 @@
     <loc>https://tan-butterfly-307193.hostingersite.com/posts/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tan-butterfly-307193.hostingersite.com/projects/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tan-butterfly-307193.hostingersite.com/tags/tag1/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tan-butterfly-307193.hostingersite.com/tags/tag2/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tan-butterfly-307193.hostingersite.com/tags/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tan-butterfly-307193.hostingersite.com/categories/</loc>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/docs/ipod/models-and-specs/</loc>
+  </url><url>
+    <loc>https://tan-butterfly-307193.hostingersite.com/docs/ipod/part-sources/</loc>
   </url>
 </urlset>
