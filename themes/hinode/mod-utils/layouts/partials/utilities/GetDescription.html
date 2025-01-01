@@ -1,0 +1,33 @@
+<!-- Initialize arguments -->
+{{ $args := partial "utilities/InitArgs.html" (dict "structure" "description" "args" .) }}
+{{ if $args.err }}
+    {{ partial "utilities/LogErr.html" (dict 
+        "partial" "utilities/description.html" 
+        "msg" "Invalid arguments"
+        "details" $args.errmsg
+        "file" page.File
+    )}}
+{{ end }}
+
+<!-- Initialize local variables -->
+{{ $description := "" }}
+{{ $filter := site.Params.modules.utils.filter | default `[^0-9A-Za-zŽžÀ-ÿ ;.,\/'’"]` }}
+{{ $raw := $args.raw | default site.Params.modules.utils.raw }}
+
+<!-- Main code -->
+{{ if $args.meta }}{{ $description = $args.page.Params.meta.description }}{{ end }}
+
+{{- if not $description -}}
+    {{- $description = cond (not $args.page.RelPermalink) $args.page.Content $args.page.Description -}}
+{{- end -}}
+
+{{- if not $description -}}
+    {{- $description = $args.page.Summary -}}
+    {{- if $args.page.Truncated }}{{ $description = print $description "..." }}{{ end -}}
+{{- end -}}
+
+{{ if not $args.raw }}
+    {{ $description = $description | htmlUnescape | plainify | replaceRE $filter "" }}
+{{ end }}
+
+{{- return $description -}}

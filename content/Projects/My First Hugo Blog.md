@@ -11,4 +11,4 @@ I am adding this text here to test the github webhook that should trigger auto-d
 
 Script testing text
 
-!![Image Description](/images/Screenshot%202024-12-20%20193426.png)
+![Image Description](/images/Screenshot%202024-12-20%20193426.png)

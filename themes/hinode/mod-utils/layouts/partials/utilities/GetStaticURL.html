@@ -1,0 +1,20 @@
+{{ $url := .url }}
+
+{{ if not (strings.HasPrefix $url "http") }}
+    {{ $u := urls.Parse $url }}
+    {{ if not $u.Scheme }}
+        {{ $b := urls.Parse site.BaseURL }}
+        {{ $url = strings.TrimPrefix $b.Path $url }}
+    {{ else }}
+        {{ $url = (strings.TrimPrefix (strings.TrimSuffix "/" site.BaseURL) $url) }}
+    {{ end }}
+    {{ $url = path.Clean $url }}
+    {{ if not $url }}{{ $url = "/" }}{{ end }}
+
+    {{ $lang := site.LanguageCode | default site.Language.Lang }}
+    {{ $base := strings.TrimSuffix (printf "%s/" $lang) site.Home.RelPermalink }}
+
+    {{ $url = partial "utilities/URLJoin.html" (dict "base" $base "path" $url) }}
+{{ end }}
+
+{{ return $url }}

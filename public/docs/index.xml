@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Jahuffine</title>
+    <link>https://tan-butterfly-307193.hostingersite.com/docs/</link>
+    <description>Recent content in Docs on Jahuffine</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tan-butterfly-307193.hostingersite.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documentation Test</title>
+      <link>https://tan-butterfly-307193.hostingersite.com/docs/documentation-test/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://tan-butterfly-307193.hostingersite.com/docs/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Models and Specs</title>
+      <link>https://tan-butterfly-307193.hostingersite.com/docs/ipod/models-and-specs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tan-butterfly-307193.hostingersite.com/docs/ipod/models-and-specs/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;WHY WONT THIS WORK&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;content here&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part Sources</title>
+      <link>https://tan-butterfly-307193.hostingersite.com/docs/ipod/part-sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tan-butterfly-307193.hostingersite.com/docs/ipod/part-sources/</guid>
+      <description>&lt;p&gt;Model information to be placed here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

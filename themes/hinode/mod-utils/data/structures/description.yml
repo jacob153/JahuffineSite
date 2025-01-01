@@ -1,0 +1,23 @@
+comment: Retrieves the (meta) description of a page.
+arguments:
+  page:
+    type:
+      - '*hugolib.pageState'
+      - '*hugolib.pageForShortcode'
+    optional: false
+    comment: Page to display the breadcrumb for.
+    group: partial
+  raw:
+    type: bool
+    optional: true
+    comment: >-
+      Flag to indicate the page descriptions should be returned as-is. In this
+      setting, the site's filter is ignored.
+    group: partial
+  meta:
+    type: bool
+    optional: true
+    comment: >-
+      Trigger to retrieve the meta description of the page, defined in the
+      frontmatter. The regular description or summary is returned as fallback.
+    group: partial

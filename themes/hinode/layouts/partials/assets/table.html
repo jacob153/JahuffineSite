@@ -1,0 +1,45 @@
+<!-- 
+    Copyright © 2022 - 2025 The Hinode Team / Mark Dumay. All rights reserved.
+    Use of this source code is governed by The MIT License (MIT) that can be found in the LICENSE file.
+    Visit gethinode.com/license for more details.
+-->
+
+{{ $page := .page }}
+{{ $input := .input }}
+{{ $args := .args }}
+{{ $sortable := .sortable | default false }}
+{{ $paging := .paging | default false }}
+{{ $searchable := .searchable | default false }}
+{{ $pagingOptionPerPage := .pagingOptionPerPage }}
+{{ $pagingOptionPerPageSelect := .pagingOptionPerPageSelect }}
+{{- $responsiveVals := slice "table-responsive" "table-responsive-none" "table-responsive-sm" "table-responsive-md" "table-responsive-lg" "table-responsive-xl" "table-responsive-xxl" -}}
+{{- $responsive := intersect $args $responsiveVals -}}
+{{- $main := complement $responsive $args -}}
+
+{{- if in $responsive "table-responsive-none" -}}
+    {{- $responsive = "" -}}
+{{- else if not $responsive -}}
+    {{ $responsive = (slice "table-responsive") -}}
+{{- end -}}
+
+{{- $class := delimit $main " " -}}
+{{ if or $sortable $paging $searchable }}{{ $class = trim (printf "%s data-table" $class) " " }}{{ end }}
+{{- $input := $input | $page.RenderString }}
+{{ $regex := `<table\s*class="(.+?)"` }}
+{{ $current := (index (index (findRESubmatch $regex $input) 0) 1) }}
+{{ $target := delimit (((split $current " ") | append "table" | append $class) | uniq) " " }}
+
+{{ $attributes := "" }}
+{{ if $sortable }}{{ $attributes = printf "%s data-table-sortable=true" $attributes }}{{ end }}
+{{ if $paging }}
+    {{ $attributes = printf "%s data-table-paging=true" $attributes }}
+    {{ $attributes := printf "%s data-table-paging-option-perPage=%s" $attributes $pagingOptionPerPage }}
+    {{ if (ne $pagingOptionPerPageSelect "") }}{{ $attributes := printf "%s data-table-paging-option-perPageSelect=%d" $attributes $pagingOptionPerPageSelect }}{{ end }}
+{{ end }}
+{{ if $searchable }}{{ $attributes = printf "%s data-table-searchable=true" $attributes }}{{ end }}
+
+{{- $new := printf `<table class="%s" %s` $target (trim $attributes " ") -}}
+{{ $input := replaceRE $regex $new $input 1 -}}
+{{- with $responsive }}<div class="{{ delimit . " " }}">{{ end -}}
+{{ $input | safeHTML }}
+{{- with $responsive }}</div>{{ end -}}

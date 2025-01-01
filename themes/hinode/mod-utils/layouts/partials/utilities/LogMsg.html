@@ -1,0 +1,32 @@
+<!-- 
+    Copyright © 2024 The Hinode Team / Mark Dumay. All rights reserved.
+    Use of this source code is governed by The MIT License (MIT) that can be found in the LICENSE file.
+    Visit gethinode.com/license for more details.
+-->
+
+<!-- Initialize arguments -->
+{{ $args := partial "utilities/InitArgs.html" (dict "structure" "log" "args" .) }}
+{{ if $args.err }}
+    {{- errorf "partial [utilities/LogErr.html] - Invalid arguments\n%s" $args -}}
+{{ else }}
+    <!-- Initialize local variables -->
+    {{ $msg := $args.msg }}
+
+    <!-- Construct the message including context and details -->
+    {{ with $args.partial }}{{ $msg = printf "partial [%s] - %s" . $msg }}{{ end }}
+    {{ with $args.position }}
+        {{ $msg = printf "%s: %s" $msg . }}
+    {{ else }}
+        {{ with $args.file }}{{ $msg = printf "%s: %s" $msg (or .Path .) }}{{ end }}
+    {{ end }}
+    {{ range $args.details }}
+        {{ $msg = printf "%s\n\t%s" $msg . }}
+    {{ end }}
+
+    <!-- Log the message -->
+    {{ if eq $args.type "error" }}
+        {{- errorf "%s" $msg }}
+    {{ else }}
+        {{- warnf "%s" $msg }}
+    {{ end }}
+{{ end }}
