@@ -10,3 +10,12 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/lotusdocs"]
+	path = themes/lotusdocs
+	url = https://github.com/colinwilson/lotusdocs
+[submodule "themes/hugo-theme-bootstrap"]
+	path = themes/hugo-theme-bootstrap
+	url = https://github.com/razonyang/hugo-theme-bootstrap
+[submodule "themes/hextra"]
+	path = themes/hextra
+	url = https://github.com/imfing/hextra.git
