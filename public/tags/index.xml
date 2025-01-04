@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jahuffine</title>
-    <link>https://tan-butterfly-307193.hostingersite.com/tags/</link>
+    <link>https://example.com/tags/</link>
     <description>Recent content in Tags on Jahuffine</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tan-butterfly-307193.hostingersite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag2</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/tags/tag2/</link>
+      <link>https://example.com/tags/tag2/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/tags/tag2/</guid>
+      <guid>https://example.com/tags/tag2/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag1</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/tags/tag1/</link>
+      <link>https://example.com/tags/tag1/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/tags/tag1/</guid>
+      <guid>https://example.com/tags/tag1/</guid>
       <description></description>
     </item>
   </channel>

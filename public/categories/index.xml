@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jahuffine</title>
-    <link>https://tan-butterfly-307193.hostingersite.com/categories/</link>
+    <link>https://example.com/categories/</link>
     <description>Recent content in Categories on Jahuffine</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://tan-butterfly-307193.hostingersite.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
