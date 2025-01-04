@@ -1,82 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jahuffine</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Jahuffine</description>
+    <title>Jahuffine on </title>
+    <link>/</link>
+    <description>Recent content in Jahuffine on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Processing Test</title>
-      <link>https://example.com/projects/image-processing-test/</link>
+      <link>/projects/image-processing-test/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/image-processing-test/</guid>
-      <description>&lt;p&gt;Here is an image below&#xA;&lt;img src=&#34;https://example.com/images/Pasted%20image%2020250101101532.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/projects/image-processing-test/</guid>
+      <description>&lt;p&gt;Here is an image below&#xA;&lt;img src=&#34;/images/Pasted%20image%2020250101101532.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Documentation Test</title>
-      <link>https://example.com/about/documentation-test/</link>
+      <link>/docs/documentation-test/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/about/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/docs/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Documentation Test</title>
-      <link>https://example.com/docs/documentation-test/</link>
+      <link>/documentation/documentation-test/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/docs/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/documentation/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Documentation Test</title>
-      <link>https://example.com/documentation/documentation-test/</link>
+      <title>iPod Model and Specs</title>
+      <link>/docs/ipod-classic/models-and-specs/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/documentation/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Hugo Blog</title>
-      <link>https://example.com/documentation/ipod-classic/models-and-specs/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/documentation/ipod-classic/models-and-specs/</guid>
+      <guid>/docs/ipod-classic/models-and-specs/</guid>
       <description>&lt;p&gt;Model information to be placed here&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My First Hugo Blog</title>
-      <link>https://example.com/documentation/ipod-classic/part-sources/</link>
+      <title>iPod Part Sources</title>
+      <link>/docs/ipod-classic/part-sources/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/documentation/ipod-classic/part-sources/</guid>
+      <guid>/docs/ipod-classic/part-sources/</guid>
       <description>&lt;p&gt;Part sources are to be placed here&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://example.com/posts/my-first-hugo-blog/</link>
+      <link>/documentation/ipod-classic/models-and-specs/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/posts/my-first-hugo-blog/</guid>
-      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;https://example.com/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/documentation/ipod-classic/models-and-specs/</guid>
+      <description>&lt;p&gt;Model information to be placed here&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://example.com/projects/my-first-hugo-blog/</link>
+      <link>/documentation/ipod-classic/part-sources/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/my-first-hugo-blog/</guid>
-      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.com/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/documentation/ipod-classic/part-sources/</guid>
+      <description>&lt;p&gt;Part sources are to be placed here&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Models and Specs</title>
-      <link>https://example.com/docs/ipod/models-and-specs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/docs/ipod/models-and-specs/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;WHY WONT THIS WORK&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;content here&lt;/p&gt;</description>
+      <title>My First Hugo Blog</title>
+      <link>/projects/my-first-hugo-blog/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/my-first-hugo-blog/</guid>
+      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Part Sources</title>
-      <link>https://example.com/docs/ipod/part-sources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/docs/ipod/part-sources/</guid>
-      <description>&lt;p&gt;Model information to be placed here&lt;/p&gt;</description>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

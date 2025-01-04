@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Jahuffine</title>
-    <link>https://example.com/projects/</link>
-    <description>Recent content in Projects on Jahuffine</description>
+    <title>Projects on </title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Processing Test</title>
-      <link>https://example.com/projects/image-processing-test/</link>
+      <link>/projects/image-processing-test/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/image-processing-test/</guid>
-      <description>&lt;p&gt;Here is an image below&#xA;&lt;img src=&#34;https://example.com/images/Pasted%20image%2020250101101532.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/projects/image-processing-test/</guid>
+      <description>&lt;p&gt;Here is an image below&#xA;&lt;img src=&#34;/images/Pasted%20image%2020250101101532.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://example.com/projects/my-first-hugo-blog/</link>
+      <link>/projects/my-first-hugo-blog/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/my-first-hugo-blog/</guid>
-      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.com/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/projects/my-first-hugo-blog/</guid>
+      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

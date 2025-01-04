@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on Jahuffine</title>
-    <link>https://example.com/docs/</link>
-    <description>Recent content in Docs on Jahuffine</description>
+    <title>Documentation on </title>
+    <link>/docs/</link>
+    <description>Recent content in Documentation on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documentation Test</title>
-      <link>https://example.com/docs/documentation-test/</link>
+      <link>/docs/documentation-test/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/docs/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>/docs/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Models and Specs</title>
-      <link>https://example.com/docs/ipod/models-and-specs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/docs/ipod/models-and-specs/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;WHY WONT THIS WORK&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;content here&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Part Sources</title>
-      <link>https://example.com/docs/ipod/part-sources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/docs/ipod/part-sources/</guid>
+      <title>iPod Model and Specs</title>
+      <link>/docs/ipod-classic/models-and-specs/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/docs/ipod-classic/models-and-specs/</guid>
       <description>&lt;p&gt;Model information to be placed here&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iPod Part Sources</title>
+      <link>/docs/ipod-classic/part-sources/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/docs/ipod-classic/part-sources/</guid>
+      <description>&lt;p&gt;Part sources are to be placed here&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
