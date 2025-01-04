@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag2 on Jahuffine</title>
-    <link>https://tan-butterfly-307193.hostingersite.com/tags/tag2/</link>
+    <link>https://example.com/tags/tag2/</link>
     <description>Recent content in Tag2 on Jahuffine</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tan-butterfly-307193.hostingersite.com/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Processing Test</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/projects/image-processing-test/</link>
+      <link>https://example.com/projects/image-processing-test/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/projects/image-processing-test/</guid>
-      <description>&lt;p&gt;Here is an image below&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://example.com/projects/image-processing-test/</guid>
+      <description>&lt;p&gt;Here is an image below&#xA;&lt;img src=&#34;https://example.com/images/Pasted%20image%2020250101101532.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Documentation Test</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/about/documentation-test/</link>
+      <link>https://example.com/about/documentation-test/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/about/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://example.com/about/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Documentation Test</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/docs/documentation-test/</link>
+      <link>https://example.com/docs/documentation-test/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/docs/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://example.com/docs/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Documentation Test</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/documentation/documentation-test/</link>
+      <link>https://example.com/documentation/documentation-test/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/documentation/documentation-test/</guid>
-      <description>&lt;p&gt;This is a test&#xA;!&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://example.com/documentation/documentation-test/</guid>
+      <description>&lt;p&gt;This is a test&#xA;!&lt;img src=&#34;https://example.com/images/Pasted%20image%2020241220210607.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/documentation/ipod-classic/models-and-specs/</link>
+      <link>https://example.com/documentation/ipod-classic/models-and-specs/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/documentation/ipod-classic/models-and-specs/</guid>
+      <guid>https://example.com/documentation/ipod-classic/models-and-specs/</guid>
       <description>&lt;p&gt;Model information to be placed here&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/documentation/ipod-classic/part-sources/</link>
+      <link>https://example.com/documentation/ipod-classic/part-sources/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/documentation/ipod-classic/part-sources/</guid>
+      <guid>https://example.com/documentation/ipod-classic/part-sources/</guid>
       <description>&lt;p&gt;Part sources are to be placed here&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/posts/my-first-hugo-blog/</link>
+      <link>https://example.com/posts/my-first-hugo-blog/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/posts/my-first-hugo-blog/</guid>
-      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;!&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://example.com/posts/my-first-hugo-blog/</guid>
+      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;https://example.com/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Hugo Blog</title>
-      <link>https://tan-butterfly-307193.hostingersite.com/projects/my-first-hugo-blog/</link>
+      <link>https://example.com/projects/my-first-hugo-blog/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://tan-butterfly-307193.hostingersite.com/projects/my-first-hugo-blog/</guid>
-      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &#xA;&#xA;&#xA;&lt;img class=&#34;img-fluid &#34;&#xA;        src=&#34;&#34;&#xA;        &#xA;        &#xA;        &#xA;        &#xA;        &#xA;        alt=&#34;Image Description&#34;&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://example.com/projects/my-first-hugo-blog/</guid>
+      <description>&lt;p&gt;I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.&lt;/p&gt;&#xA;&lt;p&gt;Script testing text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.com/images/Screenshot%202024-12-20%20193426.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
