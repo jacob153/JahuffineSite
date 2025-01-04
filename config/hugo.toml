@@ -1,0 +1,17 @@
+baseURL = "https://tan-butterfly-307193.hostingersite.com"
+title = "Jahuffine"
+theme = "hinode"
+env = "development"
+
+[[main]]
+  name = "Projects"
+  pageRef = "/Projects/"
+  weight = 10
+
+[[main]]
+  name = "Documentation"
+  pageRef = "/Documentation/"
+  weight = 20
+
+[[module.imports]]
+path = 'github.com/gethinode/hinode'

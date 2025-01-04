@@ -3,7 +3,7 @@
 	"file": "main.css",
 	"sourceRoot": "C:/Users/Jacob/OneDrive/Documents/JahuffineSite",
 	"sources": [
-		"scss/bundle-1736022204643972500.scss",
+		"scss/bundle-1736029433848352300.scss",
 		"hugo:vars",
 		"../../../AppData/Local/hugo_cache/modules/filecache/modules/pkg/mod/github.com/gethinode/hinode@v0.27.20/assets/scss/common/_variables.scss",
 		"../../../AppData/Local/hugo_cache/modules/filecache/modules/pkg/mod/github.com/gethinode/hinode@v0.27.20/assets/scss/theme/_variables.scss",

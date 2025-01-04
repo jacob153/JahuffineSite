@@ -6491,12 +6491,12 @@ function initIndex() {
       {
         id: 0,
         tag: "en",
-        href: "/about/documentation-test/",
-        title: "Documentation Test",
-        description: "This is a test ! ",
+        href: "/about/",
+        title: "About",
+        description: "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
         
         
-        content: "This is a test !"
+        content: ""
       })
       .add(
       
@@ -6543,18 +6543,31 @@ function initIndex() {
       {
         id: 4,
         tag: "en",
-        href: "/docs/ipod/models-and-specs/",
-        title: "Models and Specs",
-        description: "WHY WONT THIS WORK\ncontent here\n",
+        href: "/docs/ipod-classic/models-and-specs/",
+        title: "iPod Model and Specs",
+        description: "Model information to be placed here\n",
         
         
-        content: "WHY WONT THIS WORK\ncontent here"
+        content: "Model information to be placed here"
       })
       .add(
       
       
       {
         id: 5,
+        tag: "en",
+        href: "/docs/ipod-classic/part-sources/",
+        title: "iPod Part Sources",
+        description: "Part sources are to be placed here\n",
+        
+        
+        content: "Part sources are to be placed here"
+      })
+      .add(
+      
+      
+      {
+        id: 6,
         tag: "en",
         href: "/documentation/ipod-classic/models-and-specs/",
         title: "My First Hugo Blog",
@@ -6567,7 +6580,7 @@ function initIndex() {
       
       
       {
-        id: 6,
+        id: 7,
         tag: "en",
         href: "/documentation/ipod-classic/part-sources/",
         title: "My First Hugo Blog",
@@ -6575,19 +6588,6 @@ function initIndex() {
         
         
         content: "Part sources are to be placed here"
-      })
-      .add(
-      
-      
-      {
-        id: 7,
-        tag: "en",
-        href: "/posts/my-first-hugo-blog/",
-        title: "My First Hugo Blog",
-        description: "I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.\nScript testing text\n! ",
-        
-        
-        content: "I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.\nScript testing text\n!"
       })
       .add(
       
@@ -6601,19 +6601,6 @@ function initIndex() {
         
         
         content: "I am adding this text here to test the github webhook that should trigger auto-deploy on hostinger site.\nScript testing text"
-      })
-      .add(
-      
-      
-      {
-        id: 9,
-        tag: "en",
-        href: "/docs/ipod/part-sources/",
-        title: "Part Sources",
-        description: "Model information to be placed here\n",
-        
-        
-        content: "Model information to be placed here"
       })
       ;
   
